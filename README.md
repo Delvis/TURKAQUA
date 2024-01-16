@@ -2,6 +2,8 @@
 
 *Geospatial paleoecology: estimating aquatic and terrestrial fossil abundance in East Lake Turkana*
 
+"This GitHub repository contains all the code protocols employed in the TURKAQUA project. While datasets are provided, Landsat files are excluded due to their size exceeding the 100 MB GitHub limit. However, the original scene IDs are available in the `/LANDSAT` folder and can be located and downloaded from the [Earth Explorer](https://earthexplorer.usgs.gov/) platform."
+
 ## Available Files
 
 - `0-LoadData.R`
@@ -20,7 +22,6 @@ The code generates summary stats and visualizations comparing the MaxEnt and Bet
 The code generates response plots using ggplot2 for MaxEnt independent models and marginal response curves.
 
 - `5-Generate_Figure_RawData.R`
-
 The code turns Landsat 8 and DEM data into raster plots for East Turkana. It combines these spatial visualizations into a grid and exports the resulting figure as a PNG file.
 
 ## Results
