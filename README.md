@@ -2,6 +2,8 @@
 
 *Geospatial paleoecology: estimating aquatic and terrestrial fossil abundance in East Lake Turkana*
 
+![github cover](Figures/turkaqua.png)
+
 This GitHub repository contains all the code protocols employed in the TURKAQUA project. While datasets are provided, Landsat files are excluded due to their size exceeding the 100 MB GitHub limit. However, the original scene IDs are available in the `/LANDSAT8` folder and can be located and downloaded from the [Earth Explorer](https://earthexplorer.usgs.gov/) platform.
 
 ## Available Files
